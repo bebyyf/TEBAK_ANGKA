@@ -46,7 +46,9 @@ class GameTebakAngka {
   // Fungsi internal untuk memeriksa hasil tebakan
   void _cekTebakan(int tebakan) {
     if (tebakan == _angkaBenar) {
-      print('Selamat! Anda menebak dengan benar dalam $_percobaan percobaan 🎉');
+      print(
+        'Selamat! Anda menebak dengan benar dalam $_percobaan percobaan 🎉',
+      );
       _menang = true;
     } else if (tebakan < _angkaBenar) {
       print('Terlalu kecil! Coba lagi.');
