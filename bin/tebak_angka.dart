@@ -1,5 +1,7 @@
-import 'package:tebak_angka/tebak_angka.dart' as tebak_angka;
+import 'package:tebak_angka/tebak_angka.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${tebak_angka.calculate()}!');
+void main() {
+  print('=== Game Tebak Angka ===');
+  GameTebakAngka game = GameTebakAngka();
+  game.mulai();
 }
