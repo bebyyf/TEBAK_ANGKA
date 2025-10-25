@@ -13,7 +13,7 @@ void main() {
     expect(game.cekTebakanBenar(benar), isTrue);
   });
 
-  test('cekTebakanBenar() mengembalikan false jika tebakan salah', () {
+  test('cekTebakanBenar() mengembalikan false jika tebakan Salah', () {
     final game = GameTebakAngka();
     int salah = game.angkaBenar == 1 ? 2 : game.angkaBenar - 1;
     expect(game.cekTebakanBenar(salah), isFalse);
